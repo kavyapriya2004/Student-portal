@@ -13,7 +13,7 @@ function App() {
   const handleLogout = () => {
     setUser(null);
   };
-
+ 
   return (
     <div>
       {!user && <Login onLogin={handleLogin} />}
